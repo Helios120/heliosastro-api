@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: heliosastro-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
